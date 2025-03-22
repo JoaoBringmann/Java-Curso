@@ -1,5 +1,7 @@
 import org.w3c.dom.ls.LSOutput;
 
+import java.sql.SQLOutput;
+
 public class Variables {
 
     public static void main(String[] args){
@@ -43,7 +45,23 @@ public class Variables {
             System.out.println("You are not a student!");
         }
         //
+        String name = "João Vitor";
+        String email = "fake10.@hgo.com.br";
+        String color = "red";
+        String car = "Ferrari";
+        System.out.println("Your email is" + email);
 
+        System.out.println("Hello "+name);
+        System.out.println("You are "+age+"years old");
+        System.out.println("Your average age is "+age);
+
+        System.out.println("Your choice is a "+ color+" "+year+" "+car );
+        if (forSale){
+            System.out.println("There is a"+car+" for sale");
+        }
+        else{
+            System.out.println("The "+car+" is not for sale");
+        }
     }
 
 }
