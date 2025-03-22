@@ -18,7 +18,7 @@ public class Area_Retangulo {
 
         area = width* height;
 
-        System.out.println("The area is "+ area);
+        System.out.println("The area is "+ area + "cm^2");
 
         scanner.close();
 
